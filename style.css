@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  background-size: 610px;
+  background: linear-gradient(45deg, rgba(255, 0, 200, 0.527), rgba(5, 255, 213, 0.795));
+  
+}
+.background{
+  background-image: url(https://avavatar.ru/images/original/6/FHsXZyM7MN8BIlzJ.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+img {
+  padding: 2px;
+  background: #0026ff7c;
+ }
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  font-weight: bold;
+  margin: 0 0 160px;
+  padding: 32px 0 32px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+.page-header a {
+  margin-left: 56px;
+  color: #288be6;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
+}
+
+.header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header.svg");
+}
+
+.hero-image {
+  margin-bottom: 620px;
+  color: rgb(15, 10, 29);
+  text-align:center;
+  text-shadow:2px 2px 5px rgb(0, 247, 255);
+}
+
+.hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0 0 16px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 88px;
+  line-height: 96px;
+  font-weight: 600;
+}
+
+.heading:hover{
+visibility: hidden;
+}
+
+.hero-image p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.intro {
+  margin: 0 0 120px;
+}
+
+.subheading {
+  margin: 0 0 56px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow:2px 2px 5px rgb(0, 247, 255);
+}
+.neonText{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow:
+      0 0 7px rgba(21, 6, 238, 0),
+      0 0 10px rgba(0, 0, 0, 0),
+      0 0 21px #fff,
+      0 0 42px rgba(255, 255, 255, 0),
+      0 0 82px rgb(255, 0, 191),
+      0 0 92px rgb(255, 0, 179),
+      0 0 102px rgb(255, 0, 234),
+      0 0 151px rgb(255, 0, 221);
+}
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.intro h3,
+.portfolio h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.intro p {
+  margin: 0 0 32px;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-html {
+  background-image: url("img/icon-html.svg");
+}
+
+.skill-css {
+  background-image: url("img/icon-css.svg");
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #d628e6;
+  border-radius: 6px;
+}
+
+.portfolio {
+  margin: 0 0 120px;
+}
+
+
+.button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
+}
+
+.page-footer {
+  font-weight: bold;
+  padding: 40px 0;
+  background-color: #fa17d470;
+  color: #ffffff;
+}
+
+.page-footer a {
+  color: #ffffff;
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+}
+a {
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  border: 1px solid black;
+  width: 120px;
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+}
+
+a:hover {
+transition: 2s;
+transform: rotateZ(75deg);
+  font-size: 22px;
+  -webkit-box-shadow: 0px 0px 19px 7px rgba(0, 255, 255, 1),0px 0px 19px 16px rgba(0, 96, 101, 0.7);
+
+}
+.footer-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer.svg");
+}
+figure {
+  width: 250px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+figcaption {
+  font-weight: bolder;
+}
